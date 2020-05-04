@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Lobster&display=swap');
+.home-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6rem 0 0 6rem;
+}
+body{
+    background-color: #fee2f8;
+    background-image: linear-gradient(315deg, #fee2f8 0%, #f3f7f8 74%);
+}
+.content-name{
+    font-family: "Poppins";    
+    font-size: 2.5rem;
+}
+.content-role{
+    font-size: 1.5em;
+}
+.content-name, .content-role{
+    font-weight: 500;
+    color: #212529;
+}
+.alphabet-A{
+    color: rgba(250, 65, 126, 0.8);
+}
+/***********style the profile image*************/
+.my-image{
+    border-radius: 50%;
+    width: 26%;
+}
+.icon-link{
+color: linear-gradient(315deg, #fe7bb0 0%, #ff748b 74%);
+}
