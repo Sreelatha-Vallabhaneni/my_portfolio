@@ -21,15 +21,15 @@ function SideNav(){
           <FontAwesomeIcon className="icon-title" icon={faUser} />
           About
         </button>
-        <button className="nav-btn">
+        <button className="nav-btn" onClick={() => history.push("/resume")}>
           <FontAwesomeIcon className="icon-title" icon={faFile} />
           Resume
         </button>
-        <button className="nav-btn">
+        <button className="nav-btn" onClick={() => history.push("/projects")}>
           <FontAwesomeIcon className="icon-title" icon={faWindowRestore} />
           Projects
         </button>
-        <button className="nav-btn">
+        <button className="nav-btn" onClick={() => history.push("/contact")}>
           <FontAwesomeIcon className="icon-title" icon={faEnvelope} />
           Contact
         </button>

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather&display=swap');
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.me, .btn-cv-download{
+    color: rgba(250, 65, 126, 0.8);
+}
+.about-text{
+    width: 40%;
+    text-align: justify;
+    color: #3b4349
+}
+.about-text p{
+    font-family: 'Bree Serif', serif;
+    font-size: 1em;
+}
+.my-image{
+    border-radius: 50%;
+    width: 28%;
+    box-shadow: 
+    12px 12px 16px -2px rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+/*********Download button***********/
+.btn-cv-download{
+    background-color: whitesmoke;
+    box-shadow: 12px 12px 16px -2px rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    width: 38%;
+    height: 3em;
+    border: none;
+    font-size: 14px;
+    margin-top: 10px;
+}

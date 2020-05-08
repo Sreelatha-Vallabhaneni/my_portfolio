@@ -1,11 +1,11 @@
 import React from 'react';
 
-function About(){
+function Contact(){
     return(
         <React.Fragment>
-            <h1>About Me</h1>
+            <h1>Contact Me</h1>
         </React.Fragment>
     )
 }
 
-export default About;
+export default Contact;

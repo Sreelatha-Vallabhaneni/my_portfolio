@@ -1,7 +1,7 @@
 import React from 'react';
-import myImage from '../images/sreelatha.jpg';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedinIn, faGithub} from "@fortawesome/free-brands-svg-icons";
+//import myImage from '../../images/sreelatha.jpg';
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+//import { faLinkedinIn, faGithub} from "@fortawesome/free-brands-svg-icons";
 import "./home.styles.css";
 
 export default function home(){
@@ -12,14 +12,14 @@ export default function home(){
           <h4 className="content-role">
             <span className="alphabet-A">A</span> Full-Stack Web Developer.
           </h4>
-          <button className="linkedin">
+          {/* <button className="linkedin">
             <FontAwesomeIcon className="icon-link" icon={faLinkedinIn} />
           </button>
           <button className="linkedin">
             <FontAwesomeIcon className="icon-link" icon={faGithub} />
-          </button>
+          </button>*/}
         </div>
-        <img className="my-image" src={myImage} alt="sreelatha vallabhaneni" />
+        {/* <img className="my-image" src={myImage} alt="sreelatha vallabhaneni" /> */}
       </div>
     );
 };
