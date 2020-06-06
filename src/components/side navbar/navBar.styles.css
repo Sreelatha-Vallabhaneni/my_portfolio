@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Lobster&display=swap');
+
 .navbar-container{
   display: flex;
   flex-direction: column;
-  min-width: 120px;
-  height: 630px; 
+  width: 120px;
+  height: 100%;
   align-items: center;
   justify-content: space-around;
-  margin: 12px 0 0 3px;
+  margin:0.5px 0 0 3px;
+  position: fixed;
 }
 .nav-txt p::first-letter {
   font-size: 200%;
   color: rgba(250, 65, 126, 0.8);
-  line-height: 0em;
 }
-.nav-txt{color:  rgba(250, 65, 126, 0.8);
+.nav-txt{
+  color:  rgba(250, 65, 126, 0.8);
   font-family: 'Berkshire Swash', cursive;
+  line-height: 1em;
+  text-align:center;
+  letter-spacing: 0.8px;
+  font-weight: normal;
 }
 .nav-btn{
   display: flex;
@@ -25,19 +31,20 @@
   height: 65px;
   color: rgba(250, 65, 126, 0.8);
   /* color: rgba(117, 119, 121, 0.8); */
-  border: none;     
+  border: none   
 }
-.nav-btn, .navbar-container{
-  background-color: rgba(223, 221, 221, 0.8);
+/* background-color: rgba(223, 221, 221, 0.8); */
+/* .nav-btn, .navbar-container{  
+  background-color: whitesmoke;
   box-shadow: 
     12px 12px 16px -2px rgba(0, 0, 0, 0.25),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
-  border-radius: 15px;
+  border-radius: 15px; 
 }
 .nav-btn:focus, .nav-btn:hover, .nav-btn:active{
   box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);    
-}
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+} */
 .icon-title{
-  font-size: 20px;  
+  font-size: 22px;  
 }

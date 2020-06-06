@@ -1,0 +1,60 @@
+.contact-container{
+    max-width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    box-sizing: border-box;
+    text-align: center;
+    animation: expand .8s ease forwards;
+    transition: all .8s ease;
+}
+@keyframes expand {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.contact-container h1 span, .fw, .luv{
+    color: rgba(250, 65, 126, 0.8);
+}
+.contact-container h1{
+    color: #3b4349;
+    font-size: 48px;
+    padding: 3% 0 3% 0;
+}
+.contact-links, .social-links{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+.contact-links{
+    margin: 40px 0;
+    line-height: 2.5em;
+}
+.fw{
+    font-size: 30px;
+}
+.fw-text{
+    color: #3b4349;
+    font-size: 28px;
+}
+.sub-text{
+    color: #4b5257;
+    font-size: 15px;
+    font-weight: normal;
+}
+.social-links a{
+    width: 20%;
+} 
+.icon-linkedin{
+    width: 60px;
+}
+.phn, .mail, .social-links{
+    border-radius: 10px;
+    padding: 15px;
+    width: 35%;
+    margin: 25px 0;
+}

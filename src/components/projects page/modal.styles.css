@@ -1,0 +1,23 @@
+.close-icon{
+    font-size: 2.2em;
+    color: rgba(250, 65, 126, 0.8);
+}
+.btn-hide-modal{
+    float: right;
+}
+.dialog-actions{
+    width: 100%;
+}
+.dialog-actions span p {
+    display: inline-block;
+    background-color: rgba(241, 103, 149, 0.8);
+    color: white;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 8px;
+    font-weight: normal;
+    font-size: 15px;
+}
+/* .MuiDialog-paperWidthSm{
+    max-width:800px;
+} */
