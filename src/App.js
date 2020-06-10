@@ -8,7 +8,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
 
-import SideNavBar from './components/side navbar/navBar.component';
+//import SideNavBar from './components/side navbar/navBar.component';
+import SideNavBar from "./components/side navbar/burgerMenu.component";
 import Home from './components/home page/home.component';
 import About from './components/about page/about.component';
 import Skills from './components/skills page/skills.component';

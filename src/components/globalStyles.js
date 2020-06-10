@@ -1,23 +1,7 @@
-// import { createGlobalStyle } from "styled-components";
-// export const GlobalStyles = createGlobalStyle`
-//   body {
-//     background: ${({ theme }) => theme.body};
-//     color: ${({ theme }) => theme.text};
-//     font-family: Tahoma, Helvetica, Arial, Roboto, sans-serif;
-//     transition: all 0.50s linear;
-//   }
-//   `;
-
-
-// global.js
-// Source: https://github.com/maximakymenko/react-day-night-toggle-app/blob/master/src/global.js#L23-L41
-
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
-  *,
-  *::after,
-  *::before {
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,11 +9,10 @@ export const GlobalStyles = createGlobalStyle`
   body, .navbar-container, .MuiDialogTitle-root, .nav-btn, button, .btn, .btn-cv-download{    
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};    
-    margin: 0;
-    padding: 0;
     font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     transition: all 0.25s linear;
-    -webkit-font-smoothing: antialiased
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
   }
   .nav-btn, button, .btn-cv-download{
     color: ${({ theme }) => theme.iconColor};
@@ -59,10 +42,6 @@ export const GlobalStyles = createGlobalStyle`
 .about-text{
     color: ${({ theme }) => theme.text};
 }
+}
 `;
 
-// display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//align-items: center;
-//     height: 100vh;  

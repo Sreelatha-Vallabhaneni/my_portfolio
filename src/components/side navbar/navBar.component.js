@@ -1,14 +1,13 @@
 import React from 'react';
 import { useHistory } from "react-router-dom";
-//import { withRouter } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faUser, faEnvelope, faFile, faWindowRestore } from "@fortawesome/free-solid-svg-icons";
 import './navBar.styles.css';
 
+
 function SideNav(){
   let history = useHistory();
     return (
-      <aside>
         <div className="navbar-container">
           <span className="nav-txt">
             <p>Sreelatha</p>
@@ -35,7 +34,6 @@ function SideNav(){
             Contact
           </button>
         </div>
-      </aside>
     );
 }
 

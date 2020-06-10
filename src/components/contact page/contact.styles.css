@@ -58,3 +58,14 @@
     width: 35%;
     margin: 25px 0;
 }
+/****************Responsive*************/
+@media (max-width: 900px) and (min-width: 100px){
+    .contact-container{
+        margin: 0;
+        padding: 5.5em 0 1em 0;
+    }
+    .phn, .mail{
+        width: 100%;
+        margin:25px 20px ;
+    }
+}

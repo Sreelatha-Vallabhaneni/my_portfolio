@@ -1,22 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Lobster&display=swap');
-
-/* .home-container::before{   
-    background-image: linear-gradient(to right, rgba(252, 198, 220, 0.8) 15%, rgba(0,0,0,0.2) 50%, rgba(147, 149, 241, 0.8)), url('../../images/sreelatha1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    content: "";
-    width: 100%;
-    height: 100%;
-    margin-left: 9%;
-    position: fixed;
-}
-.home-container::after{
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-} */
 /* filter: grayscale(100%);   */
 
 .home-container {
@@ -26,7 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
-  margin-left: 7.5rem;
+  margin-left: 7.25rem;
 }
 .home-text{
     width: 100%;
@@ -44,61 +26,37 @@
 }
 .content-name, .content-role{
     font-weight: 700;    
-    
     animation-name: Content;
     animation-duration: 2.5s;
     animation-timing-function: ease-in;
     position: relative;
     text-align: justify;
     background: -webkit-radial-gradient( #f52977 40% , #0805b2 100%, #aa6cfc 50%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 @keyframes Content{
     0%{ left: 0; top: -200px; }
     100%{ left: 0%; top: 0; }
-
   }
 .alphabet-A{
     color: rgba(250, 65, 126, 0.8);
+    padding-left: 0;
 }
-/* .typed-cursor{
-    opacity: 1;
+@media (max-width: 900px) and (min-width: 100px){
+    .home-container, .content-name, .home-text{
+        margin: 0px;  
+        padding: 0;  
+        text-align: left;           
+    }
+    .home-container{        
+        width: 100%;       
+        background-position: center;
+    }
+    .res-text{
+        background-color: rgba(246, 248, 250, 0.438);
+        height: auto;
+        margin: 25rem 10px 0 10px;
+        border-radius: 20px 0px 20px 0px;
+    }
 }
-.content-role{
-    animation: typedjsBlink 0.7s infinite;
-}
-.typed-cursor--blink, .typed-cursor{
-    
-    animation-duration: 0.7s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: typedjsBlink;
-} */
-/* .scroll-wrap{
-    position: relative;
-      overflow: hidden;
-      display: flex;
-      flex-flow: column nowrap;
-      justify-content: flex-start;
-      align-items: flex-start;
-      flex: 0 1 35%;
-      content: '';
-      height: 4em;
-}   */
-      /* font-family: 'Montserrat', sans-serif;
-      font-weight: bold; */
-
-/* .scroll-wrap span{
-        position: relative;
-        flex: 0 1 auto;
-        margin: 0;
-        padding-bottom: 4px;
-        height: 2em;} */
-        /* -webkit-animation: desktop-scroll 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite; 
-        animation: desktop-scroll 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite; */
-        /* animation: 3s ease-in 1s infinite reverse both running slidein; */

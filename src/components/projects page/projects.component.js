@@ -9,7 +9,6 @@ import "./projects.styles.css";
 
 function Projects(){
     return (
-      <section>
         <div className="projects-container">
           <h1>My<span>Works</span></h1>
           <div className="project-app">
@@ -20,7 +19,6 @@ function Projects(){
             <SVshoesProject/>
           </div>
         </div>
-      </section>
     );
 }
 

@@ -3,8 +3,6 @@
     height: 100%;
     box-sizing: border-box;
     margin-left:9%;
-    /* animation: expand .8s ease forwards;
-    transition: all .8s ease; */
     animation: slideIn .8s ease forwards;
     transition: all .8s ease;
 }
@@ -78,4 +76,20 @@
 /**************certificates*************/
 .cert{
   text-align: justify;
+}
+/************responsive***************/
+@media (max-width: 900px) and (min-width: 100px){
+  .resume-container, .skill-set span{
+    margin: 0;
+    padding: 0;
+  }
+  .skill-set-container{
+    width: 360px;
+  }
+  .s-b-bar{
+    width: 60%;
+  }
+  .resume-container h1{
+  padding-top: 3em;
+}
 }
