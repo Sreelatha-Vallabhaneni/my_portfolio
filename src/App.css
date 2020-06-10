@@ -8,7 +8,7 @@
     border-radius: 5px;
     z-index: 1;
     box-shadow: none;
-    position: absolute;
+    position: fixed;
 }
 .moon:hover, .sun:hover{
     box-shadow: none;

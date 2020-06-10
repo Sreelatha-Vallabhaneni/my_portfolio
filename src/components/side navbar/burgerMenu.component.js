@@ -30,7 +30,7 @@ const Menu = ({ open }) => {
 };
 
 const StyledBurger = styled.button`
-  position: absolute;
+  position: fixed;
   top: 3%;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,7 @@ const StyledBurger = styled.button`
   cursor: pointer;
   z-index: 10;
   box-shadow: none;
-  left: ${({ open }) => (open ? "7.5rem" : "1rem")};
+  left: ${({ open }) => (open ? "7rem" : "1rem")};
   @media (min-width: 900px) {
     visibility: hidden;
   }
