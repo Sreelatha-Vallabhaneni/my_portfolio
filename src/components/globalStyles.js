@@ -39,7 +39,7 @@ export const GlobalStyles = createGlobalStyle`
 .skill-set-container, .phn, .mail, .social-links, .my-image{
     box-shadow: ${({ theme }) => theme.shadow};
 }
-.about-text{
+.about-text, .my-image{
     color: ${({ theme }) => theme.text};
 }
 }

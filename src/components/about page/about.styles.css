@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Rajdhani:700';
 .about-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding: 10% 0 0 10%;
+    padding: 10% 0 0 15%;
     box-sizing: border-box;
     transition: all .8s ease;    
 }
@@ -12,7 +13,7 @@
     color: rgba(250, 65, 126, 0.8);    
 }
 .about-text{
-    width: 40%;
+    width: 60%;
     text-align: justify;
     color: #3b4349; 
     position: relative;
@@ -26,11 +27,34 @@
     line-height: 28px;
     margin: 15px 0;
 }
+/********Image styling**************/
 .my-image{
     border-radius: 8px;
-    width: 30%;
-    animation: slideIn 1.5s ease-in-out forwards;
-    padding: 10px;
+    width: 60%;
+    padding: 20px;
+}
+.abt-img{
+  animation: slideIn 1.5s ease-in-out forwards;
+}
+.my-image{
+  color: #F2F5FE;
+  text-align: center;
+  font-size: 200px;
+  line-height: 1;
+  font-family: 'Rajdhani', sans-serif;
+  background: -webkit-linear-gradient(right, transparent,transparent), url(http://html5book.ru/wp-content/uploads/2016/08/bubbles.png) repeat;
+  background-size: 200px auto;
+  -webkit-text-fill-color: transparent;
+  --webkit-background-clip: text;
+  animation: background 10s infinite linear;
+}
+@keyframes background {
+  from {
+    background-position: 0 0%;
+  }
+  to {
+    background-position: 0 -200px;
+  }
 }
 /*********Download button***********/
 .btn-cv-download{

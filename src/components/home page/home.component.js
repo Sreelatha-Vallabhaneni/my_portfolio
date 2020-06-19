@@ -1,4 +1,5 @@
 import React from 'react';
+import Typical from "react-typical";
 import "./home.styles.css";
 
 export default function home(){
@@ -9,7 +10,11 @@ export default function home(){
             <h1 className="content-name">I'M Sreelatha Vallabhaneni</h1>
             <h4 className="content-role">
               <span className="alphabet-A">A </span>
-              Full-Stack Web Developer & Software Tester.
+              <Typical
+                steps={["Full-Stack Web Developer.", 1000, "Software Tester.", 500]}
+                loop={Infinity}
+                wrapper="p"
+              />
             </h4>
           </div>
         </div>

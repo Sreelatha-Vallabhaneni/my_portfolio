@@ -23,6 +23,7 @@
 .content-role{
     font-size: 1.5em;
     padding-top: 8px;
+    display: flex;
 }
 .content-name, .content-role{
     font-weight: 700;    

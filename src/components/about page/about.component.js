@@ -30,7 +30,9 @@ function About(){
             </button>
           </a>
         </div>
+        <div className="abt-img">
           <img className="my-image" src={myImage} alt="sreelatha vallabhaneni" />
+        </div>
       </div>
     );
 }
