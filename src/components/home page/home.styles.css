@@ -50,6 +50,13 @@
         padding: 0;  
         text-align: left;           
     }
+    .content-name, .home-text, .alphabet-A{
+        margin-left: 10px;
+        backdrop-filter: blur(none);
+    }
+    .content-name, .home-text{
+        padding: 10px 0;
+    }
     .home-container{        
         width: 100%;       
         background-position: center;
@@ -59,5 +66,26 @@
         height: auto;
         margin: 25rem 10px 0 10px;
         border-radius: 20px 0px 20px 0px;
+    }
+    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .res-text{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+        }
+    }
+}
+@media (max-width: 1030px) and (min-width: 900px){
+    .home-container{
+        background-position: center;
+    } 
+    .res-text{
+        background-color: rgba(246, 248, 250, 0.438);
+        margin: 50em 50px 0 20px;
+        border-radius: 20px 0px 20px 0px;
+        height: 10em;
+    }
+    .content-name, .home-text{
+        padding-top: 20px;
     }
 }

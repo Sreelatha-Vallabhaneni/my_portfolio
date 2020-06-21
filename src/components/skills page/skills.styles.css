@@ -93,3 +93,8 @@
   padding-top: 3em;
 }
 }
+@media (max-width: 1030px) and (min-width: 900px){
+  .resume-container{
+    padding-top: 2em;
+  }
+}

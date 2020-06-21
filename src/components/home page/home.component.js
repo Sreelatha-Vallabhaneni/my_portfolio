@@ -1,8 +1,9 @@
 import React from 'react';
-import Typical from "react-typical";
+import ReactJsTyping from "reactjs-typing-effect";
 import "./home.styles.css";
 
 export default function home(){
+  const listOfString=["Full-Stack Web Developer.", "Software Tester."]
     return (
       <div className="home-container">
         <div className="res-text">
@@ -10,11 +11,9 @@ export default function home(){
             <h1 className="content-name">I'M Sreelatha Vallabhaneni</h1>
             <h4 className="content-role">
               <span className="alphabet-A">A </span>
-              <Typical
-                steps={["Full-Stack Web Developer.", 1000, "Software Tester.", 500]}
-                loop={Infinity}
-                wrapper="p"
-              />
+              <div>
+                <ReactJsTyping StringList={listOfString} speed={1000} />
+              </div>
             </h4>
           </div>
         </div>

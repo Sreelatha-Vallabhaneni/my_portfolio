@@ -4,15 +4,15 @@
     margin-left: 10%;
     box-sizing: border-box;
     text-align: center;
-    animation: expand .8s ease forwards;
+    animation: slideIn .8s ease forwards;
     transition: all .8s ease;
 }
-@keyframes expand {
+@keyframes slideIn {
   0% {
-    transform: translateX(1400px);
+    transform: translateX(20px) scale(.2);
   }
   100% {
-    transform: translateX(0px);
+    transform: translateX(0px) scale(1);
   }
 }
 .contact-container h1 span, .fw, .luv{
@@ -67,5 +67,10 @@
     .phn, .mail{
         width: 100%;
         margin:25px 20px ;
+    }
+}
+@media (max-width: 1030px) and (min-width: 900px){
+    .contact-container{
+        padding-top: 4em;
     }
 }

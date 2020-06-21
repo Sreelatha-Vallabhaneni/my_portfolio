@@ -92,4 +92,12 @@
     display: none;
     }
 }
+@media (max-width: 1030px) and (min-width: 900px){
+    .project-app{
+        height: 110rem;        
+    }
+    .projects-container{
+        padding-top: 2em;
+    }
+}
 
