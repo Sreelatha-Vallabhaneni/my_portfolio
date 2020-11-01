@@ -1,6 +1,6 @@
 import React from 'react';
 import myImage from "../../images/sreelatha3.JPG";
-
+import resume from '../../assets/Sreelatha Vallabhaneni.pdf';
 import "./about.styles.css";
 
 
@@ -21,7 +21,7 @@ function About(){
           </p>
           <a
             // href="https://www.dropbox.com/s/p1isvwrv0l1ozkj/Sreelatha%20Vallabhaneni.pdf?dl=0"
-            href="file:///C:/Users/sreelatha/Downloads/Sreelatha%20Vallabhaneni.pdf"
+            href={resume}
             className="download-link"
             target="_download"
           >
