@@ -20,7 +20,7 @@ function About(){
             development, testing, debugging and documentation of applications.
           </p>
           <a
-            href="https://www.dropbox.com/h?preview=Sreelatha+Vallabhaneni.pdf"
+            href="https://www.dropbox.com/s/p1isvwrv0l1ozkj/Sreelatha%20Vallabhaneni.pdf?dl=0"
             className="download-link"
             target="_download"
           >
