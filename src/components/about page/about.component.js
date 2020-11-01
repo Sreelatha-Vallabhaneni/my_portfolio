@@ -12,16 +12,15 @@ function About(){
             About <span className="me">Me</span>
           </h1>
           <p>
-            I am an energetic and imaginative young web developer,
-            passionate about creating user friendly and responsive websites
-            while being motivated to learn new technologies in a fast pace.
-            proven experience and success working as software test engineer as
-            an individual and team member. comprehensive talents across the
-            design development, testing, debugging and documentation of
-            applications.
+            I am an energetic and imaginative young web developer, passionate
+            about creating user friendly and responsive websites while being
+            motivated to learn new technologies in a fast pace. proven
+            experience and success working as software test engineer as an
+            individual and team member. comprehensive talents across the design
+            development, testing, debugging and documentation of applications.
           </p>
           <a
-            href="https://drive.google.com/file/d/11uNzCKJrA9L2wd32zMEQTekvTrBo0CF-/view?usp=sharing"
+            href="https://www.dropbox.com/h?preview=Sreelatha+Vallabhaneni.pdf"
             className="download-link"
             target="_download"
           >
@@ -31,7 +30,11 @@ function About(){
           </a>
         </div>
         <div className="abt-img">
-          <img className="my-image" src={myImage} alt="sreelatha vallabhaneni" />
+          <img
+            className="my-image"
+            src={myImage}
+            alt="sreelatha vallabhaneni"
+          />
         </div>
       </div>
     );
