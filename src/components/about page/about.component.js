@@ -1,6 +1,7 @@
 import React from 'react';
 import myImage from "../../images/sreelatha3.JPG";
 import resume from '../../assets/Sreelatha Vallabhaneni.pdf';
+import recommendation from '../../assets/Recommendation letter.pdf';
 import "./about.styles.css";
 
 
@@ -19,15 +20,22 @@ function About(){
             individual and team member. comprehensive talents across the design
             development, testing, debugging and documentation of applications.
           </p>
-          <a
-            href={resume}
-            className="download-link"
-            target="_download"
-          >
-            <button className="btn-cv-download">
-              <b>Download CV</b>
-            </button>
-          </a>
+          <div className="btns">
+            <a href={resume} className="download-link btn" target="_download">
+              <button className="btn-cv-download">
+                <b>Download CV</b>
+              </button>
+            </a>
+            <a
+              href={recommendation}
+              className="recommendation btn"
+              target="_download"
+            >
+              <button className="btn-recommendation">
+                <b>Recommendation Letter</b>
+              </button>
+            </a>
+          </div>
         </div>
         <div className="abt-img">
           <img

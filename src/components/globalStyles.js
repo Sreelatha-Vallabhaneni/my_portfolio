@@ -6,7 +6,7 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
-  body, .navbar-container, .MuiDialogTitle-root, .nav-btn, button, .btn, .btn-cv-download{    
+  body, .navbar-container, .MuiDialogTitle-root, .nav-btn, button, .btn, .btn-cv-download, .btn-recommendation{    
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};    
     font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -14,11 +14,11 @@ export const GlobalStyles = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     scroll-behavior: smooth;
   }
-  .nav-btn, button, .btn-cv-download{
+  .nav-btn, button, .btn-cv-download, .btn-recommendation{
     color: ${({ theme }) => theme.iconColor};
     outline: none !important;
   }
-  .navbar-container, .nav-btn, button, .btn-cv-download{
+  .navbar-container, .nav-btn, button, .btn-cv-download, .btn-recommendation{
     box-shadow: ${({ theme }) => theme.shadow};
     border:none;
     border-radius: 15px;
