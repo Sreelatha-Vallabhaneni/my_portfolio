@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { ModalProvider } from "react-modal-hook";
 import { TransitionGroup } from "react-transition-group";
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 

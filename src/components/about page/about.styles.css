@@ -9,7 +9,7 @@
     box-sizing: border-box;
     transition: all .8s ease;    
 }
-.me, .download-link{
+.me{
     color: rgba(250, 65, 126, 0.8);    
 }
 .about-text{
@@ -57,28 +57,32 @@
   }
 }
 /*********Download button***********/
-.btn-cv-download{
+.btns{
+  display: flex;
+  justify-content: space-between;
+  flex: 1 2;
+  align-items: center;
+}
+.btn-cv-download, .btn-recommendation{
     background-color: whitesmoke;
     box-shadow: 12px 12px 16px -2px rgba(0, 0, 0, 0.25),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
     border-radius: 15px;
-    width: 38%;
     height: 3em;
     border: none;    
     padding: 0 15px;
 }
-.download-link{
+.download-link, .recommendation{
     text-decoration: none;
     font-size: 16px;
 }
-.download-link:hover{
+.download-link:hover, .recommendation:hover{
     color: tomato;
 }
-.btn-cv-download b{
+.btn-cv-download b, .btn-recommendation b{
   font-size: 17px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, serif;
 }
-
 /********************Keyframes************/
 
 @keyframes slideIn {
@@ -107,6 +111,9 @@
   }
   .about-text{
     padding: 30px 0;
+  }
+  .btn{
+    width: 50%;
   }
 }
 @media (max-width: 1100px) and (min-width: 950px){
