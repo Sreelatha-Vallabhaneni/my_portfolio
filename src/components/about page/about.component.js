@@ -2,11 +2,13 @@ import React from 'react';
 import myImage from "../../images/sreelatha3.JPG";
 import resume from '../../assets/Sreelatha Vallabhaneni.pdf';
 import recommendation from '../../assets/Recommendation letter.pdf';
+import feedback from '../../assets/feedback.png';
 import "./about.styles.css";
 
 
 function About(){
     return (
+      <div>
       <div className="about-container">
         <div className="about-text">
           <h1>
@@ -44,6 +46,10 @@ function About(){
             alt="sreelatha vallabhaneni"
           />
         </div>
+      </div>
+      <div className="feedback">
+        <img src={feedback} alt="freetrailer-feedback" width="500" />
+      </div>
       </div>
     );
 }
