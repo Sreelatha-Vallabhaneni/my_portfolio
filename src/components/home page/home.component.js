@@ -3,7 +3,7 @@ import ReactJsTyping from "reactjs-typing-effect";
 import "./home.styles.css";
 
 export default function home(){
-  const listOfString=["Full-Stack Web Developer.", "React Native Developer", "Software Tester."]
+  const listOfString=["Frontend Developer.", "React Native Developer.", "Full-Stack Web Developer.", "Software Tester."]
     return (
       <div className="home-container">
         <div className="res-text">

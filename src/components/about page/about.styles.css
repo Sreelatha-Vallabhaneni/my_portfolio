@@ -2,10 +2,13 @@
 @import 'https://fonts.googleapis.com/css?family=Rajdhani:700';
 .about-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 2% 0 0 15%;
+    /* padding: 2% 0 0 15%; */
+    padding-top: 3%;
+    padding-left: 12%;
+    padding-right: 30px;
     box-sizing: border-box;
     transition: all .8s ease;    
 }
@@ -13,7 +16,7 @@
     color: rgba(250, 65, 126, 0.8);    
 }
 .about-text{
-    width: 60%;
+    max-width: 50%;
     text-align: justify;
     color: #3b4349; 
     position: relative;
@@ -23,17 +26,23 @@
 }
 .about-text p{  
     font-family: 'Bree Serif', serif;
-    font-size: 1em;
+    font-size: 14px;
+    letter-spacing: 0.8px;
     line-height: 28px;
     margin: 15px 0;
 }
 /********Image styling**************/
 .my-image{
     border-radius: 8px;
-    width: 60%;
+    width: 88%;
+    max-height: 320px;
     padding: 20px;
+    object-fit: cover;
+    object-position: center;
 }
 .abt-img{
+  width: 45%;
+  margin-right: 10px;
   animation: slideIn 1.5s ease-in-out forwards;
 }
 .my-image{
@@ -80,16 +89,27 @@
     color: tomato;
 }
 .btn-cv-download b, .btn-recommendation b{
-  font-size: 17px;
+  font-size: 14px;
+  letter-spacing: 1px;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, serif;
 }
 /************** Feedback Image ***********/
 .feedback{
-  margin-top: 10px;
+  margin-top: 2%;
   padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .feedback img{
   border-radius: 10px;
+  width: 90vh;
+  object-fit: cover;
+  object-position: center;
+  /* position: absolute;
+  
+  left: 50%;
+  transform: translate(-50%, 50%); */
 }
 
 /********************Keyframes************/
@@ -133,6 +153,6 @@
 }
 @media (max-width: 1100px) and (min-width: 950px){
   .about-container{
-    padding-top: 25rem;
+    /* padding-top: 25rem; */
   }
 }

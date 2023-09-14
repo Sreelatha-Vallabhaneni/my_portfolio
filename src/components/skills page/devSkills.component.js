@@ -17,15 +17,21 @@ function DevSkills(){
             </div>
           </div>
           <div className="skill-set">
-            <h4>CSS3</h4>
+            <h4>CSS3, Tailwind, MUI</h4>
             <div className="s-b-bar">
               <div className="s-bar css"></div>
             </div>
           </div>
           <div className="skill-set">
-            <h4>JavaScript</h4>
+            <h4>JavaScript, Typescript</h4>
             <div className="s-b-bar">
               <div className="s-bar js"></div>
+            </div>
+          </div>
+          <div className="skill-set">
+            <h4>ReactJS, Next JS</h4>
+            <div className="s-b-bar">
+              <div className="s-bar react"></div>
             </div>
           </div>
           <div className="skill-set">
@@ -35,15 +41,9 @@ function DevSkills(){
             </div>
           </div>
           <div className="skill-set">
-            <h4>MYSQL</h4>
+            <h4>MYSQL, Graphql</h4>
             <div className="s-b-bar">
               <div className="s-bar sql"></div>
-            </div>
-          </div>
-          <div className="skill-set">
-            <h4>ReactJS</h4>
-            <div className="s-b-bar">
-              <div className="s-bar react"></div>
             </div>
           </div>
           <div className="skill-set">

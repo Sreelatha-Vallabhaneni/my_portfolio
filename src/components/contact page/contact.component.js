@@ -47,13 +47,9 @@ function Contact(){
             </a>
           </div>
         </div>
-        <p style={{ fontSize: "13px" }}>
-          Made with{" "}
-          <span className="luv" style={{ fontSize: "20px" }}>
-            &#9829;
-          </span>{" "}
-          and passion
-        </p>
+        <div style={{ fontSize: "13px", letterSpacing:'0.9px' }}>
+          Made with<span className="luv" style={{}}>&#9829;</span>and passion
+        </div>
       </div>
     );
 }

@@ -15,13 +15,19 @@ function About(){
             About <span className="me">Me</span>
           </h1>
           <p>
+            Dedicated and experienced Frontend Developer with over 3 years of professional experience in designing and implementing intuitive, responsive, and visually appealing web applications. 
+            Proficient in HTML, CSS, JavaScript, TypeScript, and leading frontend frameworks such as React and NextJS. 
+            Demonstrated success in optimizing website performance, ensuring cross-browser compatibility, and delivering exceptional user experiences. 
+            Committed to continuous learning, staying at the forefront of emerging technologies, and leveraging innovative frontend development to drive results.
+          </p>
+          {/* <p>
             I am an energetic and imaginative young web developer, passionate
             about creating user friendly and responsive websites while being
             motivated to learn new technologies in a fast pace. proven
             experience and success working as software test engineer as an
             individual and team member. comprehensive talents across the design
             development, testing, debugging and documentation of applications.
-          </p>
+          </p> */}
           <div className="btns">
             <a href={resume} className="download-link btn" target="_download">
               <button className="btn-cv-download">
@@ -48,7 +54,7 @@ function About(){
         </div>
       </div>
       <div className="feedback">
-        <img src={feedback} alt="freetrailer-feedback" width="500" />
+        <img src={feedback} alt="freetrailer-feedback" width="500px" />
       </div>
       </div>
     );

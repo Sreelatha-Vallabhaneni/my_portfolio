@@ -33,9 +33,11 @@
 }
 .skill-set-container{
   border-radius: 20px 0 20px 0;
+  font-size: small;
+  letter-spacing: 1px;
   width: 500px;
   padding: 15px;
-  margin-top: 20px;
+  margin-top: 3%;
 }
 .skill-set{
   display: flex;
@@ -60,7 +62,7 @@
   width: 82%;
 }
 .react, .tc{
-  width: 85%;
+  width: 92%;
 }
 .skill-set h4, .s-b-bar{
   margin: 5px 0;

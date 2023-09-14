@@ -42,8 +42,8 @@ function Resume() {
             <h2>Certificates</h2>
           </div>
           <div className="skill-set-container cert">
-            <h4><span>&#9755;</span> ISTQB</h4>
-            <h4><span>&#9755;</span> Prøve Dansk 2 (PD2)</h4>
+            <div style={{display:'flex', alignItems:'center'}}><span>&#9755;</span><h4>ISTQB</h4></div>
+            <div style={{display:'flex', alignItems:'center'}}><span>&#9755;</span><h4>Prøve Dansk 2 (PD2)</h4></div>
           </div>
         </div>
       </div>
