@@ -1,7 +1,7 @@
 import React from 'react';
 import myImage from "../../images/sreelatha3.JPG";
 import resume from '../../assets/Sreelatha Vallabhaneni.pdf';
-import recommendation from '../../assets/Recommendation letter.pdf';
+//import recommendation from '../../assets/Recommendation letter.pdf';
 import feedback from '../../assets/feedback.png';
 import "./about.styles.css";
 
