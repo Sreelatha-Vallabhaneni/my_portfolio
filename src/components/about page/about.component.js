@@ -34,7 +34,7 @@ function About(){
                 <b>Download CV</b>
               </button>
             </a>
-            <a
+            {/* <a
               href={recommendation}
               className="recommendation btn"
               target="_download"
@@ -42,7 +42,7 @@ function About(){
               <button className="btn-recommendation">
                 <b>Recommendation Letter</b>
               </button>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="abt-img">
