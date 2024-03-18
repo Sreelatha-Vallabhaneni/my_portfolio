@@ -1,4 +1,4 @@
-import { DialogActions, Modal } from '@material-ui/core'
+import { DialogActions } from '@material-ui/core'
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
