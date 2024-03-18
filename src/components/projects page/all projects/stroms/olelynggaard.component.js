@@ -1,6 +1,5 @@
 import { DialogActions, Modal } from '@material-ui/core'
 import React from 'react'
-import ProjectsLink from '../../projects-link-button.cmponent'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import InfoModal from '../../infoModal';
