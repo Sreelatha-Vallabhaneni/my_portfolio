@@ -9,9 +9,9 @@ function MealsharingProject() {
     <div className="mealsharing-project">
       <div className="mealsharing-link">
         <a
-          href="https://hyf-meal-sharing-project.herokuapp.com/"
+          href="https://github.com/Sreelatha-Vallabhaneni/FullStack_MealSharing"
           target="_blank"
-          //rel="noopener noreferrer"
+          rel="noopener noreferrer"
         >
           <ProjectsLink />
         </a>
