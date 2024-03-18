@@ -11,7 +11,7 @@ function MealsharingProject() {
         <a
           href="https://hyf-meal-sharing-project.herokuapp.com/"
           target="_blank"
-          rel="noopener noreferrer"
+          //rel="noopener noreferrer"
         >
           <ProjectsLink />
         </a>

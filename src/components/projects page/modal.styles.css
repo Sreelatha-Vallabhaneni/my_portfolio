@@ -12,10 +12,31 @@
     display: inline-block;
     background-color: rgba(241, 103, 149, 0.8);
     color: white;
-    margin: 5px;
-    padding: 3px;
+    margin: 5px 8px 5px 0px;
+    padding: 5px;
     border-radius: 8px;
     font-weight: normal;
     font-size: 15px;
+}
+.dialog-actions span{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 10px 0 10px -11px;
+}
+/*******ole styles *********/
+.roles{
+    margin: 5px 0;
+}
+.roles h3{
+    margin-right: 10px;
+}
+.respon-list, .company p{
+    margin-left: 20px;
+}
+.company, .roles{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
 }
 

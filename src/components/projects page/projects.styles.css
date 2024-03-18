@@ -24,14 +24,26 @@
     color: rgba(250, 65, 126, 0.8);
 }
 .project-app{
-    height: 55rem;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;   
     flex-wrap: wrap;         
 }
+.ole-project{
+    background-image: url("../../images/ole/ole-display.png");
+}
+.snabslanten-project{
+    background-image: url("../../images/snabslanten/snabs-display.png");
+}
+.winefamly-project{
+    background-image: url("../../images/winefamly/display-pic.png");
+}
 .final-project{
     background-image: url("../../images/seasony/dashboard-image2.png");
+}
+.fitness-project{
+    background-image: url("../../images/Fitness/display.png");
 }
 .mealsharing-project{
     background-image: url("../../images/mealsharing/ms-image1.png");
@@ -45,14 +57,15 @@
 .SV-project{
     background-image: url('../../images/e-commerce/SVshoes1.png');
 }
-.final-project, .weather-app, .mealsharing-project, .todo-app, .SV-project {    
+.final-project, .weather-app, .ole-project, .snabslanten-project, .winefamly-project, .fitness-project, .mealsharing-project, .todo-app, .SV-project {    
     background-size: cover;
     background-repeat: no-repeat;
     width: 500px;
     height: 250px;
     border-radius: 10px;
+    margin-top: 2.5em;
 }
-.fp-link, .weather-link, .mealsharing-link, .todo-link, .SV-link{
+.fp-link, .weather-link, .ole-link, .snabslanten-link, .winefamly-link, .fitness-link, .mealsharing-link, .todo-link, .SV-link{
     opacity: 0;
     display: flex;
     justify-content: center;
@@ -62,7 +75,7 @@
     height: 80%;
     border-radius: 10px;  
 }
-.final-project:hover .fp-link, .weather-app:hover .weather-link, .mealsharing-project:hover .mealsharing-link, .todo-app:hover .todo-link, .SV-project:hover .SV-link{
+.final-project:hover .fp-link, .weather-app:hover .weather-link, .ole-project:hover .ole-link, .snabslanten-project:hover .snabslanten-link, .winefamly-project:hover .winefamly-link, .fitness-project:hover .fitness-link, .mealsharing-project:hover .mealsharing-link, .todo-app:hover .todo-link, .SV-project:hover .SV-link{
     opacity: 1; 
     background-color: rgba(250, 65, 126, 0.8);
     text-align: center;
