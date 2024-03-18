@@ -4,9 +4,6 @@ import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { DialogActions } from '@material-ui/core';
 import ReactHooksCarousel from "react-hooks-carousel";
 import InfoModal from '../../infoModal';
-//import {comments} from '../../../../images/winefamly/comments-slider.png'
-//import {productDetails} from '../../../../images/winefamly/product-details.png'
-//import {products} from '../../../../images/winefamly/products.png'
 
 function wineFamly() {
   const link = "https://www.winefamly.com/";
@@ -75,13 +72,6 @@ function wineFamly() {
             </div>
           </DialogActions>
         </InfoModal>
-        {/* <a
-          href="https://hyf-meal-sharing-project.herokuapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <ProjectsLink />
-        </a> */}
         <a 
             href={link} 
             target="_blank"

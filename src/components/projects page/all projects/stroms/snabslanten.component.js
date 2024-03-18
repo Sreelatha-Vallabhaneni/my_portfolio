@@ -68,13 +68,6 @@ function snabslanten() {
             </div>
           </DialogActions>
         </InfoModal>
-        {/* <a
-          href="https://hyf-meal-sharing-project.herokuapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <ProjectsLink />
-        </a> */}
         <a 
             href={link} 
             target="_blank"
